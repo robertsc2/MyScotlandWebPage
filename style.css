@@ -1,1 +1,14 @@
-body{background-color: black;}
+.hero-image{
+    background-image: url("./images/scotland-1987599_1280.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 352px;
+}
+
+.hero-text{
+    color: whitesmoke;
+    position: absolute;
+    text-align: center;
+    top: 280px;
+}
