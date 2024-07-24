@@ -1,3 +1,8 @@
+*{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+   'Lucida Sans', Arial, sans-serif; 
+}
+
 .hero-image{
     background-image: url("./images/scotland-1987599_1280.jpg") ;
     background-position: center;
@@ -10,5 +15,22 @@
     color: whitesmoke;
     position: absolute;
     text-align: center;
-    top: 280px;
+    top: 180px;
+    width: 100%;
+    font-size: 4rem;
 }
+
+.two-column{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+img{
+    width: 100%;
+}
+
+.info{font-size: 1.25em;}
